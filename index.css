@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* --------    header    --------- */
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    height: 130px;
+    
+}
+
+button{
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    font-family: inherit;
+}
+
+.header-center-top > a > img{
+    width: 180px;
+    height: 60px;
+}
+
+.header-center{
+    text-align: center;
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+.header-center-bot>button:hover{
+    border-bottom: 2px solid gray;
+}
+
+.header-center-bot>button{
+    margin: 20px 12px;
+}
+
+
+.header-left>button{
+    margin: 25px 10px;
+    font-size: 24px;
+}
+
+.header-left{
+    width: 20%;
+    text-align: right;
+}
+
+.header-left>button:hover{
+    opacity: 50%;
+}
+
+.header-right{
+    width: 20%;    
+}
+
+.header-right>button:hover{
+    opacity: 50%;
+}
+
+.header-right>button{
+    margin: 32px 13px;
+}
+
+/* -------------   slider    -------------- */
+
+.slide > img{
+    width: 100%;
+}
