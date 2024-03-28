@@ -1,0 +1,365 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+/* header */
+#header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 55px;
+  background-color:rgb(18, 16, 16) ;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  z-index: 2;
+}
+
+.menu> a{
+  margin-bottom: 30px;
+  font-variant: none;
+  font-weight: bold;
+  font-size: 22px; 
+  text-align: center;
+  font-variant: small-caps;
+  line-height: 65px;
+}
+
+.header-left{
+  float: left;
+  width: 90%;
+  text-align: center;
+}
+
+.menu>img{
+  width: 250px;
+  height: 40px;
+  margin-bottom: -10px;
+}
+
+
+
+.header-left a{
+  text-decoration: none;
+  margin:  20px;
+  margin-bottom: 40px;
+  color: #f4faf4;
+}
+
+.menu>a:hover{
+  color: rgba(49, 241, 43, 0.856);
+  font-size: 25px;
+}
+
+.header-right{
+  float: right;
+  width: 10%;
+}
+
+.header-right>a{
+  margin: 10px;
+}
+
+.header-icon{
+color: rgb(243, 247, 247);
+font-size: 22px;
+}
+
+.header-icon:hover{
+  color: rgba(49, 241, 43, 856);   
+  font-size: 24px;
+}
+
+/* sản phẩm */
+.nen-sanpham{
+    width: 100%;
+    height: 750px;
+    background-image: url(./img/bg-motor.jpg);
+}
+
+.pkl{
+    height: 40px;
+    width: 250px;
+    font-size: 24px;
+    margin: 150px 200px;
+    background-color: rgb(41, 216, 41);
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+
+.duongngang{
+width: 80%;
+height: 2px;
+background-color: rgb(23, 230, 23);
+margin-left: 200px;
+margin-bottom: 100px;
+}
+
+.spnb{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px ;
+  }
+  
+  .ttsp{
+    margin-left: 82px;
+    margin-top: 10px;
+  }
+  
+  .gia{
+    margin-left: 33px;
+  }
+  
+  .starall{
+    margin-left: 27px;
+    color: rgb(238, 238, 13);
+  }
+  
+  .sptren{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .anh5{
+    margin-left: 20px;
+  }
+  
+  .anh-sp{
+    transition: all o.5s;
+  }
+  
+  .anh-sp:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  .xemtatca{
+    height: 35px;
+    width: 170px;
+    padding-top:50px ;
+    padding: 8px 30px;
+    margin: 50px 46%;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    font-weight: BOLD;
+    background-color: rgb(33, 245, 29);
+    color: white;
+  }
+    
+  .xemtatca:hover{
+    background-color: rgb(8, 197, 21);
+  }
+
+  .anh4{
+    height: 260px;
+  }
+
+  .anh6{
+    height: 260px;
+  }
+
+  .anh7{
+    height: 280px;
+  }
+
+  .anh8{
+    height: 280px;
+  }
+
+  .anh9{
+    height: 290px;
+  }
+
+  /* footer */
+  #slideshow2 {
+    overflow: hidden; 
+    height: 150px ;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(40, 42, 41, 0.875);
+  }
+  
+  .slider-wrapper2 {
+    display:flex;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    -webkit-animation: slide2 15s linear infinite;
+  } 
+  
+  .slide2 {
+    height: 150px;
+    width: 70%;
+    margin: 10px 5px;
+  }
+  
+   @-webkit-keyframes slide2 {
+    10% {margin-left: 0px;}
+    10% {margin-left: -15%;}
+    10% {margin-left: -15%;}
+    10% {margin-left: -20%;}
+    10% {margin-left: -20%;}
+    10% {margin-left: -25%;}
+    10% {margin-left: -25%;}
+    10% {margin-left: -30%;}
+    10% {margin-left: -30%;}
+    10% {margin-left: -35%;}
+    10% {margin-left: -35%;}
+    10% {margin-left: -40%;}
+    10% {margin-left: -40%;}
+    10% {margin-left: -45%;}
+    10% {margin-left: -45%;}
+    10% {margin-left: -50%;}
+    10% {margin-left: -50%;}
+  } 
+  
+  .duongngang2{
+    background-color: rgb(10, 207, 10);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 2px;
+  }
+  /* footer */
+  footer{
+    width: 100%;
+    height: 600px;
+    background-image: url(./img/h4-img-4.jpg);
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .nen-ft{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.888);
+  }
+  
+  .logo-ft{
+    text-align: center;
+    margin: 70px 40px 40px 45%;
+    width: 200px;
+    height: 30px;
+  }
+  
+  .ct-content{
+    text-align: center;
+    font-size: 22px;
+    color: rgb(27, 195, 27);
+    margin-bottom: 40px;
+    font-weight: bolder;
+  }
+  
+  .lienhe{
+    width: 251px;
+    height: 149px;
+  }
+  
+  .showroom{
+    width: 347px;
+    height: 161px;
+  }
+  
+  .ve-thuong-motor{
+    width: 170px;
+    height: 161px;
+  }
+  
+  .fanpage{
+    width: 256px;
+    height: 163px;
+  }
+  
+  .content{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin: 40px 154px 0 253px;
+  }
+  
+  .content> p,li{
+    margin: 20px 5px;
+    list-style: none;
+    line-height: 18px;
+  }
+  
+  .content>li:hover{
+    margin: 20px 5px;
+    list-style: none;
+    font-size: 16px;
+  }
+  
+  .icon-ft{
+    color: rgb(28, 203, 28);
+    margin-right: 6px;
+  }
+  
+  .icon-lass{
+    margin: 8px 5px;
+  }
+  
+  .duongcuoi{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(119, 126, 132);
+    height: 1px;
+  }
+  
+  .p-class{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(23, 24, 24);
+    color: aliceblue;
+    padding-top: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .p-green{
+    color: rgb(21, 193, 21);
+  }
+  
+  li:hover{
+    color: rgb(49, 189, 49);
+  }
+  
+  .ggmap{
+    width: 346px;
+    height: 161px;
+    border-radius: 5px;
+  }
+
+.white{
+    height: 50px;
+}
+
+.trangtiep-li{
+  display: inline;
+  padding: 10px;
+  background-color:rgba(66, 72, 65, 0.293) ;
+  margin: 0 20px;
+  font-size: 30px;
+  border-radius: 2px;
+  color: white;
+}
+
+.trangtiep-chu{
+  text-align: center;
+  height: 40px;
+  margin: 50px;
+}
+
+.trangtiep-li:hover{
+  display: inline;
+  padding: 10px;
+  background-color:rgb(78, 221, 38) ;
+  margin: 0 20px;
+  font-size: 30px;
+  border-radius: 2px;
+  color: white;
+}
